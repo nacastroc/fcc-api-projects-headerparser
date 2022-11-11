@@ -4,7 +4,8 @@
   "description": "API project for freeCodeCamp",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha ./tests/*.spec.js --exit"
   },
   "dependencies": {
     "cors": "^2.8.1",
